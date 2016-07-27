@@ -1,8 +1,5 @@
 package pokemonfinder.com.pokemonfinder;
 
-/**
- * Created by Yoav on 7/24/2016.
- */
 public class Pokemon {
 
     private String name;
@@ -10,8 +7,7 @@ public class Pokemon {
     private String lat;
     private int resourceID;
 
-    public Pokemon(String name, String lat, String lon, int respurceId)
-    {
+    public Pokemon(String name, String lat, String lon, int respurceId) {
         this.name = name;
         this.lat = lat;
         this.lon = lon;
@@ -41,7 +37,6 @@ public class Pokemon {
     public void setLon(String lon) {
         this.lon = lon;
     }
-
 
     public int getResourceID() {
         return resourceID;
